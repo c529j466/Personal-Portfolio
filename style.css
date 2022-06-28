@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #a2a2a2;
+}
+
+/* This contains the rules for the header */
+header,footer {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #791439;
+    color: #ffffff;
+}
+
+footer {
+    position: relative;
+    top: 1000px;
+
+}
+
+/* This specifies the rules for the h1 of the header */
+header h1, footer h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+footer h1 {
+    text-decoration: underline;
+}
+
+/* This gives specific rules for the links in the header */
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* This takes the preset option off the ul */
+header div ul, footer ul {
+    list-style-type: none;
+}
+
+/* This tells the li items to display inline in the header */
+header div ul li, footer ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+ 
+/* This gives the links a specfic color  */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* This gives a font size for all paragraphs on the page */
+p {
+    font-size: 28px;
+}
+
+/* This gives the properties and image for the top image of the page */
+.content-box1 {
+    height: 550px;
+    width: 50%;
+    margin-bottom: 25px;
+    background-image: url("image0.jpeg"); 
+    background-size: cover;
+    background-position: center;
+    margin-right: 40px;
+    margin-top: 40px;
+    float: right;
+
+}
+
+/* This gives the properties for the text next to the top image */
+.text-box1 {
+    height: 400px;
+    width: 50%;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    padding-top: 300px;
+    
+
+}
+
+/* This sets the properties for the heading of text-box1 */
+.text-box1 h2 {
+    font-size: 62px;
+    color:#791439;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/* This sets the properties for the paragraph of text-box1 */
+.text-box1 p {
+    font-size: 38px;
+    color:#791439;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* This sets the properties for text-box2 and text-box3 */
+.text-box2, .text-box3 {
+    font-size:34px;
+    color: black;
+    border-right: 20px;
+    border-right-color:black;
+    border-right-style: solid;
+    height: 100px;
+    width: 15%;
+    margin-top: 500px;
+    margin-left: 50px;
+
+}
+
+.text-box3 {
+    margin-top: 200px;
+}
+
+/* This gives the properties for the about me section */
+.about-me {
+    height: 400px;
+    width: 70%;   
+    position: relative;
+    left: 400px;
+    bottom: 100px;
+    flex-wrap: wrap;
+
+}
+
+/* This gives the properties and image for the top image of the page */
+.work {
+    height: 750px;
+    width: 70%;
+    margin-bottom: 25px;
+    background-image: url("Screenshot0.png"); 
+    background-size: cover;
+    background-position: center;
+    margin-right: 40px;
+    margin-top: 20px;
+    float: right;
+    position: relative;
+    right: 100px;
+
+}
+
+/* This gives the properties for the paragraph of the work section */
+.work p {
+    position: relative;
+    bottom: 75px;
+    left: 450px;
+    background-color:#791439;
+    color:#ffffff;
+    width: 150px;
+    text-align: center;
+}
